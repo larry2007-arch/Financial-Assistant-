@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Nigerian Finance Hub - Your Guide to Wealth</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            background-color: #f4f7f6;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #2c3e50;
+            color: #fff;
+            padding: 2rem 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        header p {
+            font-size: 1.1rem;
+            margin-top: 0.5rem;
+        }
+
+        nav {
+            background-color: #34495e;
+            padding: 0.75rem 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 1rem;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1rem;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #3498db;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        #hero {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 4rem 2rem;
+            background: #fff;
+            border-radius: 8px;
+            margin: 2rem auto;
+            max-width: 1100px;
+        }
+
+        .hero-image {
+            width: 45%;
+            height: 300px;
+            background-color: #ecf0f1;
+            border-radius: 8px;
+        }
+
+        .hero-text {
+            width: 50%;
+        }
+
+        .hero-text h2 {
+            font-size: 2rem;
+            color: #2c3e50;
+            margin-top: 0;
+        }
+
+        .cta-button {
+            display: inline-block;
+            padding: 0.75rem 2rem;
+            background-color: #3498db;
+            color: #fff;
+            text-decoration: none;
+            font-weight: 600;
+            border-radius: 50px;
+            transition: background-color 0.3s;
+            margin-top: 1rem;
+        }
+
+        .cta-button:hover {
+            background-color: #2980b9;
+        }
+
+        #tips, #investments {
+            background-color: #ecf0f1;
+            padding: 4rem 0;
+            text-align: center;
+        }
+
+        #tips h2, #investments h2 {
+            font-size: 2.2rem;
+            color: #2c3e50;
+            margin-bottom: 2rem;
+        }
+
+        .article-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
+        article {
+            background-color: #fff;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: left;
+        }
+
+        article h3 {
+            color: #3498db;
+        }
+
+        .ad-container {
+            text-align: center;
+            margin: 2rem 0;
+            background-color: #ecf0f1;
+            padding: 1rem;
+            border: 2px dashed #95a5a6;
+            color: #7f8c8d;
+        }
+
+        footer {
+            background-color: #2c3e50;
+            color: #fff;
+            padding: 2rem 0;
+            text-align: center;
+        }
+
+        footer a {
+            color: #3498db;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        footer a:hover {
+            color: #fff;
+        }
+
+        @media (max-width: 768px) {
+            #hero {
+                flex-direction: column;
+            }
+            .hero-image, .hero-text {
+                width: 100%;
+                margin-bottom: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>The Nigerian Finance Hub</h1>
+            <p>Empowering you with the knowledge to build wealth.</p>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#tips">Tips</a></li>
+            <li><a href="#investments">Investments</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="hero">
+            <div class="hero-image">
+                </div>
+            <div class="hero-text">
+                <h2>Take Control of Your Financial Future</h2>
+                <p>Welcome to your go-to resource for practical financial advice tailored for Nigerians. From budgeting to investing, we cover it all.</p>
+                <a href="#tips" class="cta-button">Start Your Journey</a>
+            </div>
+        </section>
+
+        <section id="tips">
+            <div class="container">
+                <h2>Essential Money Tips for Nigerians</h2>
+                <div class="article-grid">
+                    <article>
+                        <h3>1. Create a Realistic Budget</h3>
+                        <p>A budget is your blueprint for financial success. In Nigeria's dynamic economy, a budget helps you track your income and expenses, ensuring you live within your means and can handle unexpected costs.</p>
+                        </article>
+                    <article>
+                        <h3>2. Understand "Black Tax"</h3>
+                        <p>Supporting family is a cultural obligation for many Nigerians. Learn how to manage "black tax" by setting clear boundaries and financial goals so you can help your family without compromising your own financial future.</p>
+                        </article>
+                    <article>
+                        <h3>3. Start Saving Consistently</h3>
+                        <p>Even small amounts add up over time. Make saving a habit by setting aside a portion of your income regularly. Consider automating your savings to make it a seamless process.</p>
+                        </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="investments">
+            <div class="container">
+                <h2>Investment Opportunities for Beginners</h2>
+                <div class="article-grid">
+                    <article>
+                        <h3>Invest in Mutual Funds</h3>
+                        <p>Mutual funds are a great way for beginners to start investing. Professionals manage a pool of money from many investors, which is then invested in stocks, bonds, and other assets.</p>
+                        </article>
+                    <article>
+                        <h3>Explore Treasury Bills & Bonds</h3>
+                        <p>Considered one of the safest investments in Nigeria, Treasury Bills and Government Bonds are a secure way to grow your money over time. They offer a fixed, low-risk return.</p>
+                        </article>
+                    <article>
+                        <h3>Look into Agriculture</h3>
+                        <p>Agriculture is a major part of the Nigerian economy. Investing in agri-tech or farming projects is a popular way to earn passive income, with many digital platforms making it easy for you to get started.</p>
+                        </article>
+                </div>
+            </div>
+        </section>
+        
+        <aside class="ad-container">
+            <h3>Ad Space</h3>
+            <ins class="adsbygoogle"
+                 style="display:block"
+                 data-ad-client="ca-pub-1234567890123456"
+                 data-ad-slot="1234567890"
+                 data-ad-format="auto"
+                 data-full-width-responsive="true"></ins>
+            <script>
+                 (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+        </aside>
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; <span id="currentYear"></span> The Nigerian Finance Hub. All rights reserved.</p>
+            <p><a href="contact">Contact Us</a> | <a href="privacy">Privacy Policy</a></p>
+        </div>
+    </footer>
+    
+    <script>
+        // This JavaScript automatically updates the year in the footer.
+        document.getElementById("currentYear").textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
